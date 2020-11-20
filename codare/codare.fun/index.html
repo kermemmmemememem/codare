@@ -1,0 +1,1243 @@
+﻿
+<!DOCTYPE html>
+
+
+<html style="background-color:#272427">
+
+<!-- Mirrored from codare.fun/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 20 Nov 2020 06:24:43 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head runat="server">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-173555167-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-173555167-1');
+</script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen&amp;display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="../images-ext-2.discordapp.net/external/mJwUmCZlfjdL266hGGYrdiz1Xa1syiD9UdwIAU3AzAg/_size%3d1024/https/cdn.discordapp.com/icons/685767837591142404/a_668db0e197bcc75e8c463b93cced3c7d.html" type="image/x-icon" />
+<link rel="stylesheet" href="../stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="../code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="../cdn.jsdelivr.net/npm/popper.js%401.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="../stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<!-- daha iyi böyle
+ -->
+  <title>Anasayfa • CodAre</title>
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta property="og:title" content="CodAre • Anasayfa">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="/">
+  <meta name="keywords" content="CodAre, Codare, Kod Paylaşım, Discord Kod, Discord, discord.js, discord.py,eris">
+<meta name="abstract" content="Discord Kod Paylaşım Sitesi"/>
+<meta name="copyright" content="&copy; CodAre"/>
+<link rel="icon" href="../images-ext-2.discordapp.net/external/o5_CdvojtbiqP7gf4p0fZbc4TA-2rUGb42nsBmlDcDU/https/images-ext-1.discordapp.net/external/hP--_u31hRBbgRD5YOKH9OXQOLseUeEOJEMb3eiIHmg/https/media.discor/a_668db0e197bcc75e8c463" type="image/x-icon" />
+  <meta property="og:description" content="CodAre Discord sunucusuna bağlı olan bir internet sitesidir. Genellikle Discord botlarıyla ilgili olan fakat içerisinde Python, Html ve diğer yazılım dillerini içeren kodlar paylaşılmakta olan CodAre Kod Paylaşım Web Sitesi hizmetinizde.">
+  <meta property="og:image" content="https://images-ext-2.discordapp.net/external/o5_CdvojtbiqP7gf4p0fZbc4TA-2rUGb42nsBmlDcDU/https/images-ext-1.discordapp.net/external/hP--_u31hRBbgRD5YOKH9OXQOLseUeEOJEMb3eiIHmg/https/media.discordapp.net/attachments/715886415296069652/732632254303436880/a_668db0e197bcc75e8c463b93cced3c7d_2.gif">
+  <meta property="og:site_name" content="CodAre • Anasayfa">
+  <meta property="og:locale" content="tr_TR">
+  
+  <meta name="theme-color" content="#282828">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1">-->
+  <script data-ad-client="ca-pub-2406681510092524" async src="../pagead2.googlesyndication.com/pagead/js/f.txt"></script>
+  
+    <nav style="color:none;z-index:1"class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="index.html">CodAre</a>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Ana Sayfa <span class="sr-only">(current)</span></a>
+        
+      </li>
+    
+
+   
+  <div class="dropdown">
+    <button class="dropbtn">Kodlar<svg class="bi bi-chevron-down" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+</svg></button>
+    <div class="dropdown-content">
+      <a href="https://discord.com/api/oauth2/authorize?response_type=code&amp;redirect_uri=https%3A%2F%2Fcodare.fun%2Fcallback&amp;scope=identify%20guilds&amp;client_id=732290103522885642" class="jsbackground" style="color:#3C873A" ><b>JS</b></a>
+        <a href="https://discord.com/api/oauth2/authorize?response_type=code&amp;redirect_uri=https%3A%2F%2Fcodare.fun%2Fcallback&amp;scope=identify%20guilds&amp;client_id=732290103522885642" class="htmlbackground"style="color:#FF5733"><b>HTML</b></a>
+        <a href="https://discord.com/api/oauth2/authorize?response_type=code&amp;redirect_uri=https%3A%2F%2Fcodare.fun%2Fcallback&amp;scope=identify%20guilds&amp;client_id=732290103522885642" class="pybackground"style="color:#FFD43B"><b>PY</b></a>
+      <div class="dropdown-divider" style="border-top:1px solid #ff0000;"></div>
+        <a href="https://discord.com/api/oauth2/authorize?response_type=code&amp;redirect_uri=https%3A%2F%2Fcodare.fun%2Fcallback&amp;scope=identify%20guilds&amp;client_id=732290103522885642" class="digerbackground"style="color:#ff0000"><b>Diğer</b></a>
+            <!-- <a href="#" class="digerbackground"style="color:#ff0000"><b>Sizden Gelenler</b></a> -->
+         
+    </div>
+</div>
+      
+        <div class="dropdown">
+    <button class="dropbtn">Özel Kodlar <svg class="bi bi-chevron-down" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+</svg></button>
+    <div class="dropdown-content">
+        <a href="class="jsplusrainbow-background"><b>JS+</b></a>
+        <a href="class="altyapirainbow-background altyapibackground">Altyapılar</a>    
+        <a href="class="boostrainbow-background boostrainbowbackground">Booster</a>        
+    </div>
+</div>
+      
+  <li class="nav-item active">
+    
+      </li>
+      
+      <li class="nav-item active">
+        <a class="nav-link" href="sss.html">S.S.S.<span class="sr-only">(current)</span></a>
+      </li>
+        
+            <li class="nav-item active">
+        <a class="nav-link" href="https://discord.gg/peFGuU3" style="word-wrap: break-word;" target="_blank" id="discord">Discord Adresimiz<span class="sr-only">(current)</span></a>
+      </li>
+      
+    </ul>
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+            
+      </li>
+    </ul>
+      <ul class="nav justify-content-end">
+
+                  
+                 
+        <li style="position:absolute;right:0;margin:auto;top:15%"class="nav-item active">
+        <a id="giris" class="nav-link giris"  href="https://discord.com/api/oauth2/authorize?response_type=code&amp;redirect_uri=https%3A%2F%2Fcodare.fun%2Fcallback&amp;scope=identify%20guilds&amp;client_id=732290103522885642"><b><svg class="bi bi-box-arrow-in-right" width="20px" height="20px" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M8.146 11.354a.5.5 0 0 1 0-.708L10.793 8 8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0z"/>
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 1 8z"/>
+  <path fill-rule="evenodd" d="M13.5 14.5A1.5 1.5 0 0 0 15 13V3a1.5 1.5 0 0 0-1.5-1.5h-8A1.5 1.5 0 0 0 4 3v1.5a.5.5 0 0 0 1 0V3a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5h-8A.5.5 0 0 1 5 13v-1.5a.5.5 0 0 0-1 0V13a1.5 1.5 0 0 0 1.5 1.5h8z"/>
+          </svg></b> Giriş Yap <span class="sr-only">(current)</span></a>
+      </li>
+        
+      
+    </ul>
+
+
+      </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+ <span class="navbar-toggler-icon"></span>
+  </button>
+  </nav>
+
+
+  </head>
+  
+
+<style>
+  .jsplusrainbow-background{
+		animation: jsplusrainbow-background 2.5s linear;
+		animation-iteration-count: infinite;
+    user-select: none;
+}
+
+
+
+@keyframes jsplusrainbow-background{
+		100%,0%{
+			background-color: rgb(255,0,0);
+		}
+		8%{
+			background-color: rgb(255,127,0);
+		}
+		16%{
+			background-color: rgb(255,255,0);
+		}
+		25%{
+			background-color: rgb(127,255,0);
+		}
+		33%{
+			background-color: rgb(0,255,0);
+		}
+		41%{
+			background-color: rgb(0,255,127);
+		}
+		50%{
+			background-color: rgb(0,255,255);
+		}
+		58%{
+			background-color: rgb(0,127,255);
+		}
+		66%{
+			background-color: rgb(0,0,255);
+		}
+		75%{
+			background-color: rgb(127,0,255);
+		}
+		83%{
+			background-color: rgb(255,0,255);
+		}
+		91%{
+			background-color: rgb(255,0,127);
+		}
+}
+  
+   .borderlogo{
+		animation: borderlogo 5.0s linear;
+		animation-iteration-count: infinite;
+    user-select: none;
+}
+
+
+
+@keyframes borderlogo{
+		100%,0%{
+			border:4px #fff solid
+		}
+		50%{
+border:4px #2a52be solid
+  }
+
+
+}
+  
+    .altyapirainbow-background{
+		animation: altyapirainbow-background 5.5s linear;
+		animation-iteration-count: infinite;
+    user-select: none;
+}
+    .boostrainbow-background{
+		animation: boostrainbow-background  5.5s linear;
+		animation-iteration-count: infinite;
+    user-select: none;
+}
+  .giris{
+		animation: giris 8.0s linear;
+		animation-iteration-count: infinite;
+    user-select: none;
+}
+@keyframes giris{
+		0%{
+			color: rgb(124,252,0)
+		}
+  		4%{
+			color: rgb(127,255,0)
+		}
+		8%{
+			color: rgb(50,205,50)
+		}
+  		12%{
+			color: rgb(0.255.0)
+		}
+		16%{
+			color: rgb(34,139,34)
+		}
+		25%{
+			color: rgb(0,128,0)
+		}
+		33%{
+			color: rgb(0,100,0)
+		}
+		41%{
+			color: rgb(173,255,47)
+		}
+  		46%{
+			color: rgb(154,205,50)
+		}
+		50%{
+			color: rgb(0,255,127)
+		}
+  		54%{
+			color: rgb(0,250,154)
+		}
+		58%{
+			color: rgb(144,238,144)
+		}
+		66%{
+			color: rgb(152,251,152)
+		}
+		75%{
+			color: rgb(143,188,143)
+		}
+		83%{
+			color: rgb(60,179,113)
+		}
+		91%{
+			color: rgb(32,178,170)
+		}
+}
+ .cikis{
+		animation: cikis 10.0s linear;
+		animation-iteration-count: infinite;
+}
+@keyframes cikis{
+		0%{
+			color: rgb(255,0,0)
+		}
+  		4%{
+			color: rgb(139,0,0)
+		}
+		9%{
+			color: rgb(128,0,0)
+		}
+  		16%{
+			color: rgb(255,99,71)
+		}
+		27%{
+			color: rgb(255,69,0)
+		}
+		35%{
+			color: rgb(219,112,147)
+		}
+		43%{
+			color: rgb(255,160,122)
+		}
+		55%{
+			color: rgb(250,128,114)
+		}
+  		63%{
+			color: rgb(233,150,122)
+		}
+		70%{
+			color: rgb(240,128,128)
+		}
+  		77%{
+			color: rgb(205,92,92)
+		}
+		85%{
+			color: rgb(220,20,60)
+		}
+		91%{
+			color: rgb(178,34,34)
+		}
+	
+}
+
+@keyframes altyapirainbow-background{
+		100%,0%{
+			color: rgb(255,0,0);
+		}
+		16%{
+			color: rgb(255,127,0);
+		}
+		8%{
+			color: rgb(255,255,0);
+		}
+		33%{
+			color: rgb(127,255,0);
+		}
+		25%{
+			color: rgb(0,255,0);
+		}
+		60%{
+			color: rgb(0,255,127);
+		}
+		58%{
+			color: rgb(0,255,255);
+		}
+		41%{
+			color: rgb(0,127,255);
+		}
+		75%{
+			color: rgb(0,0,255);
+		}
+		83%{
+			color: rgb(127,0,255);
+		}
+		66%{
+			color: rgb(255,0,255);
+		}
+		91%{
+			color: rgb(255,0,127);
+		}
+}
+  
+  
+  
+@keyframes boostrainbow-background{
+		100%,0%{
+			color: rgb(255,192,203);
+		}
+		16%{
+			color: rgb(255,182,193);
+		}
+		8%{
+			color: rgb(255,105,180);
+		}
+		33%{
+			color: rgb(255,20,147);
+		}
+		25%{
+			color: rgb(219,112,147);
+		}
+		60%{
+			color: rgb(199,21,133);
+		}
+		58%{
+			color: rgb(255,192,203);
+		}
+		41%{
+			color: rgb(255,182,193);
+		}
+		75%{
+			color: rgb(255,105,180);
+		}
+		83%{
+			color: rgb(255,20,147);
+		}
+		66%{
+			color: rgb(219,112,147);
+		}
+		91%{
+			color: rgb(199,21,133);
+		}
+}
+  
+
+  
+  
+  .area{
+    background: #4e54c8;  
+    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
+    width: 100%;
+    height:100%;
+
+   
+}
+
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+    
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+ .dropbtn {
+        background-color: #343a40!important;
+        color: white;
+        padding: 8px 10px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+       border-radius: 12px;
+    }
+  .dropbtn:hover {
+    transition: 0.2s;
+    background-color: black;
+  }
+  .dropbtn:not(:hover) {
+    transition: 0.2s;
+  }
+ 
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+ 
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #343a40!important;
+        text-align: center;
+        min-width: 149px;
+        z-index: 1;
+    }
+ 
+    .dropdown-content a {
+        color: #fff;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+ 
+  
+  
+  
+  /* BACKGROUND STYLE  */
+    .jsbackground:hover {
+        transition: 0.2s;
+        background-color: #f0db4f;
+          border-radius: 18px;
+    }
+  .jsbackground:not(:hover) {
+    transition: 0.2s;
+  }
+   
+   .pybackground:hover {
+        transition: 0.2s;
+        background-color: #306998;
+          border-radius: 18px;
+    }
+  .pybackground:not(:hover) {
+    transition: 0.2s;
+  }
+  
+   .htmlbackground:hover {
+     transition: 0.2s;
+        background-color: white;
+          border-radius: 18px;
+    }
+  .htmlbackground:not(:hover) {
+    transition: 0.2s;
+  }
+  
+   .digerbackground:hover {
+     transition: 0.2s;
+        background-color: #34ebab;
+          border-radius: 18px;
+    }
+  
+  .digerbackground:not(:hover) {
+    transition: 0.2s;
+  }
+  
+     .altyapibackground:hover {
+       transition: 0.2s;
+        background-color: white;
+          border-radius: 18px;
+    }
+  .altyapibackground:not(:hover) {
+    transition: 0.2s;
+  }
+
+     .boostrainbowbackground:hover {
+       transition: 0.2s;
+        background-color: white;
+          border-radius: 18px;
+    }
+  .boostrainbowbackground:not(:hover) {
+    transition: 0.2s;
+  }
+
+
+     .aracizgibackground:hover {
+       transition: 0.2s;
+        background-color: yellow;
+       border-radius: 18px;
+    }
+  .aracizgibackground:not(:hover) {
+    transition: 0.2s;
+  }
+  .jsplusrainbow-background:hover {
+    transition: 0.2s;
+    color: black;
+    border-radius: 18px;
+  }
+  .jsplusrainbow-background:not(:hover) {
+    transition: 0.2s;
+  }
+  .nav-link:hover {
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 18px;
+  }
+  .nav-link:not(:hover) {
+    transition: 0.3s;
+  }
+  .navbar-brand {
+    padding: 4px 12px;
+    border-radius: 18px;
+    background-color: black;
+  }
+  .navbar-brand:hover {
+    transition: 0.2s;
+    border-radius: 8px;
+  }
+  .navbar-brand:not(:hover) {
+    transition: 0.2s;
+  }
+  
+  
+    /* BACKGROUND STYLE  */
+
+  
+  
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+ 
+    .dropdown:hover .dropbtn {
+        background-color: #068587;
+    }
+  .container{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  background-color:#272427
+}
+.container span{
+  text-transform: uppercase;
+  display: block;
+}
+.text1{
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  background: none;
+  position: relative;
+  animation: text 3s 1;
+}
+.text2{
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  background: none;
+  position: relative;
+  animation: text 3s 1;
+}
+
+@keyframes text {
+  0%{
+    color: white;
+  }
+  30%{
+    letter-spacing: 25px;
+  }
+  85%{
+    letter-spacing: 8px;
+  }
+ 
+  </style>
+  
+  
+  
+  
+  <center id="2">
+  
+  
+  
+  
+  
+  
+  
+    <div class="container">
+      <img class="rounded-circle bordercolor"style="animation: borderlogo 10.0s linear;animation-iteration-count: infinite;"src="../images-ext-2.discordapp.net/external/o5_CdvojtbiqP7gf4p0fZbc4TA-2rUGb42nsBmlDcDU/https/images-ext-1.discordapp.net/external/hP--_u31hRBbgRD5YOKH9OXQOLseUeEOJEMb3eiIHmg/https/media.discor/a_668db0e197bcc75e8c463" alt="UserAvatar">
+<a href="discord.html">
+      <span class="text1">CodAre</span>
+      </a>
+            <span style="position:relative;margin: auto;top:-25px" class="text2">Kod Paylaşım</span>
+      
+
+ 
+<!--span style="color: white;position: relative;margin: auto;top: -25px;">Bilgilendirme<br>
+-Kodları görebilmek için Giriş yapmanız gerekmektedir</br>
+<br>-Kodları görmek için sunucumuzda roleriniz olması gerekmektedir(aşağıda nasıl alcağınız yazmaktadır).</br></br>
+<br>-Roleri almak için kullancağınız Komutlar(Not:Lütfen bot-komut kanalını kullanın):</br>
+<br>Javascript - c!js</br>
+<br>Python - c!py</br>
+<br>Html - c!html</br>
+<br>Diğer - c!diğer</br>
+<br>-Özel kodları görmek için gerekenler;</br>
+<br>Altyapı rolü için sunucumuzda 15 kişiyi davet etmeniz gerekmektedir.</br>
+<br>Javascript+ rolü almak için sunucumuza 30 kişi davet etmeniz gerekmektedir.</br>
+<br>Booster için sunucuya Boost yapmanı gerekmektedir.</br>
+<br>-Neden Siteye Geçtik?</br>
+<br>Nedeni Discorda kanal aramalar zorlaşıyordu,500 kanal açma limiti olduğu için siteye geçtik</br>
+<br>-Kodlar Paylaşımı Durcak mı?</br>
+<br>Hayır Kodlar paylaşılmaya devam edilcektir</br>
+</span-->
+
+  </div>
+  
+  
+  </center>
+  
+  
+  
+  
+  
+</div>
+  
+  
+  <script data-ad-client="ca-pub-2406681510092524" async src="../pagead2.googlesyndication.com/pagead/js/f.txt"></script>
+  
+  
+  
+  
+  
+
+<style>
+  .jsplusrainbow-background{
+		animation: jsplusrainbow-background 2.5s linear;
+		animation-iteration-count: infinite;
+}
+
+
+
+@keyframes jsplusrainbow-background{
+		100%,0%{
+			background-color: rgb(255,0,0);
+		}
+		8%{
+			background-color: rgb(255,127,0);
+		}
+		16%{
+			background-color: rgb(255,255,0);
+		}
+		25%{
+			background-color: rgb(127,255,0);
+		}
+		33%{
+			background-color: rgb(0,255,0);
+		}
+		41%{
+			background-color: rgb(0,255,127);
+		}
+		50%{
+			background-color: rgb(0,255,255);
+		}
+		58%{
+			background-color: rgb(0,127,255);
+		}
+		66%{
+			background-color: rgb(0,0,255);
+		}
+		75%{
+			background-color: rgb(127,0,255);
+		}
+		83%{
+			background-color: rgb(255,0,255);
+		}
+		91%{
+			background-color: rgb(255,0,127);
+		}
+}
+  
+   .borderlogo{
+		animation: borderlogo 5.0s linear;
+		animation-iteration-count: infinite;
+}
+
+
+
+@keyframes borderlogo{
+		100%,0%{
+			border:4px #fff solid
+		}
+		50%{
+border:4px #2a52be solid
+  }
+
+
+}
+  
+    .altyapirainbow-background{
+		animation: altyapirainbow-background 5.5s linear;
+		animation-iteration-count: infinite;
+}
+  .giris{
+		animation: giris 8.0s linear;
+		animation-iteration-count: infinite;
+}
+@keyframes giris{
+		0%{
+			color: rgb(124,252,0)
+		}
+  		4%{
+			color: rgb(127,255,0)
+		}
+		8%{
+			color: rgb(50,205,50)
+		}
+  		12%{
+			color: rgb(0.255.0)
+		}
+		16%{
+			color: rgb(34,139,34)
+		}
+		25%{
+			color: rgb(0,128,0)
+		}
+		33%{
+			color: rgb(0,100,0)
+		}
+		41%{
+			color: rgb(173,255,47)
+		}
+  		46%{
+			color: rgb(154,205,50)
+		}
+		50%{
+			color: rgb(0,255,127)
+		}
+  		54%{
+			color: rgb(0,250,154)
+		}
+		58%{
+			color: rgb(144,238,144)
+		}
+		66%{
+			color: rgb(152,251,152)
+		}
+		75%{
+			color: rgb(143,188,143)
+		}
+		83%{
+			color: rgb(60,179,113)
+		}
+		91%{
+			color: rgb(32,178,170)
+		}
+}
+ .cikis{
+		animation: cikis 10.0s linear;
+		animation-iteration-count: infinite;
+}
+@keyframes cikis{
+		0%{
+			color: rgb(255,0,0)
+		}
+  		4%{
+			color: rgb(139,0,0)
+		}
+		9%{
+			color: rgb(128,0,0)
+		}
+  		16%{
+			color: rgb(255,99,71)
+		}
+		27%{
+			color: rgb(255,69,0)
+		}
+		35%{
+			color: rgb(219,112,147)
+		}
+		43%{
+			color: rgb(255,160,122)
+		}
+		55%{
+			color: rgb(250,128,114)
+		}
+  		63%{
+			color: rgb(233,150,122)
+		}
+		70%{
+			color: rgb(240,128,128)
+		}
+  		77%{
+			color: rgb(205,92,92)
+		}
+		85%{
+			color: rgb(220,20,60)
+		}
+		91%{
+			color: rgb(178,34,34)
+		}
+	
+}
+
+@keyframes altyapirainbow-background{
+		100%,0%{
+			color: rgb(255,0,0);
+		}
+		16%{
+			color: rgb(255,127,0);
+		}
+		8%{
+			color: rgb(255,255,0);
+		}
+		33%{
+			color: rgb(127,255,0);
+		}
+		25%{
+			color: rgb(0,255,0);
+		}
+		60%{
+			color: rgb(0,255,127);
+		}
+		58%{
+			color: rgb(0,255,255);
+		}
+		41%{
+			color: rgb(0,127,255);
+		}
+		75%{
+			color: rgb(0,0,255);
+		}
+		83%{
+			color: rgb(127,0,255);
+		}
+		66%{
+			color: rgb(255,0,255);
+		}
+		91%{
+			color: rgb(255,0,127);
+		}
+}
+  
+  
+  
+  
+  
+  .area{
+    background: #4e54c8;  
+    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
+    width: 100%;
+    height:100%;
+
+   
+}
+
+.circles{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+    
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+ .dropbtn {
+        background-color: #343a40!important;
+        color: white;
+        padding: 8px 10px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+ 
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+ 
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #343a40!important;
+        text-align: center;
+        min-width: 149px;
+        z-index: 1;
+    }
+ 
+    .dropdown-content a {
+        color: #fff;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+ 
+  
+  
+  
+  /* BACKGROUND STYLE  */
+    .jsbackground:hover {
+        background-color: #f0db4f
+    }
+   
+   .pybackground:hover {
+        background-color: #306998
+    }
+  
+   .htmlbackground:hover {
+        background-color: white
+    }
+  
+   .digerbackground:hover {
+        background-color: #34ebab
+    }
+     .altyapibackground:hover {
+        background-color: white
+    }
+     .aracizgibackground:hover {
+        background-color: yellow
+    }
+  
+  
+    /* BACKGROUND STYLE  */
+
+  
+  
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+ 
+    .dropdown:hover .dropbtn {
+        background-color: #068587;
+    }
+  .container{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  background-color:#272427
+}
+.container span{
+  text-transform: uppercase;
+  display: block;
+}
+.text1{
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  background: none;
+  position: relative;
+  animation: text 3s 1;
+}
+.text2{
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  background: none;
+  position: relative;
+  animation: text 3s 1;
+}
+
+@keyframes text {
+  0%{
+    color: white;
+  }
+  30%{
+    letter-spacing: 25px;
+  }
+  85%{
+    letter-spacing: 8px;
+  }
+ 
+  </style>
+
+
+
+<div class="area" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+    </div >
+
+<script src="../code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="../cdn.jsdelivr.net/npm/popper.js%401.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="../stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+<script>
+ 
+/*$('body').on('click', '#discord', (event) => {
+  event.preventDefault();
+const { shell } = require('electron')
+
+shell.openExternal('https://discord.gg/peFGuU3')
+});*/
+  
+</script>

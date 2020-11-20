@@ -1,0 +1,13 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 20 Nov 2020 09:24:42 at https://codare.fun/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "tr, en, *" https://codare.fun/ -O1 "C:\Benim Web Sitem\codare" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+09:24:42	Warning: 	File not parsed, looks like binary: https://codare.fun/robots.txt
+09:24:52	Error: 	"Not Found" (404) at link https://images-ext-2.discordapp.net/external/mJwUmCZlfjdL266hGGYrdiz1Xa1syiD9UdwIAU3AzAg/%3Fsize%3D1024/https/cdn.discordapp.com/icons/685767837591142404/a_668db0e197bcc75e8c463b93cced3c7d.gif (from https://codare.fun/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 16 seconds : 11 links scanned, 9 files written (1020920 bytes overall) [761491 bytes received at 47593 bytes/sec], 374239 bytes transferred using HTTP compression in 8 files, ratio 23%, 5.8 requests per connection
+(1 errors, 1 warnings, 0 messages)
